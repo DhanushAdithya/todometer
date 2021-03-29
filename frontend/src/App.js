@@ -1,9 +1,10 @@
-import { Navbar } from './components'
+import { Container, Navbar } from './components'
 
 function App() {
 	return (
 		<div>
 			<Navbar />
+			<Container />
 		</div>
 	)
 }
