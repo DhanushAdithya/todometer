@@ -1,0 +1,4 @@
+.card {
+	@apply bg-gray-600 w-full max-w-md h-52 rounded-md cursor-pointer;
+	@apply transition shadow-md hover:shadow-xl;
+}
