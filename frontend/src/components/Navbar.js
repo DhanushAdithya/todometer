@@ -1,13 +1,14 @@
+import { Link } from 'wouter'
 import '../styles/Navbar.scss'
 
-const Navbar = () => {
-	return (
-		<div>
-			<nav>
+const Navbar = () => (
+	<div>
+		<nav>
+			<Link href='/'>
 				<h1>Todometer</h1>
-			</nav>
-		</div>
-	)
-}
+			</Link>
+		</nav>
+	</div>
+)
 
 export default Navbar

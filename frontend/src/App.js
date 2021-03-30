@@ -1,12 +1,18 @@
-import { Container, Navbar } from './components'
+import { Route } from 'wouter'
 
-function App() {
-	return (
-		<div>
-			<Navbar />
+import { Container, Navbar } from './components'
+import { CreateGroup } from './pages'
+
+const App = () => (
+	<div>
+		<Navbar />
+		<Route path='/'>
 			<Container />
-		</div>
-	)
-}
+		</Route>
+		<Route path='/creategroup'>
+			<CreateGroup />
+		</Route>
+	</div>
+)
 
 export default App
